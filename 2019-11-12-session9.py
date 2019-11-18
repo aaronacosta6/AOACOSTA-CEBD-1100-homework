@@ -34,7 +34,7 @@ plt.show() """
 
 
 # PLOT no. 3
-""" df = pd.read_csv("/Users/Aaron/Dropbox/Concordia/Continuing Education/CEBD 1100 - Intro to Python and Data Analysis/Session 9/data-3.csv")
+df = pd.read_csv("/Users/Aaron/Dropbox/Concordia/Continuing Education/CEBD 1100 - Intro to Python and Data Analysis/Session 9/data-3.csv")
 
 df[1] = (((df['var1'] - (95.34))**2) + (df['var2'] - (124.41))**2)
 df[2] = (((df['var1'] - (136.22))**2) + (df['var2'] - (154.90))**2)
@@ -43,4 +43,4 @@ df[3] = (((df['var1'] - (185.33))**2) + (df['var2'] - (185.39))**2)
 df['class'] = df[[1,2,3]].idxmin(axis=1)
 
 plt.scatter(df['var1'], df['var2'], c = df['class'])
-plt.show() """
+plt.show()
